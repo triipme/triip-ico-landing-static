@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Proxima';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Proxima Nova Light'), url('Proxima Nova Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Proxima';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Proxima Nova Regular'), url('Mark Simonson - Proxima Nova Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Proxima';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Proxima Nova Semibold'), url('Proxima Nova Semibold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Proxima';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Proxima Nova Bold'), url('Proxima Nova Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Proxima';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Proxima Nova Extrabold'), url('ProximaNova-Xbold.woff') format('woff');
+}
