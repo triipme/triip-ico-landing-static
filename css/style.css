@@ -1496,6 +1496,10 @@ a {
   padding-bottom: 50px;
 }
 
+.sec-countdown #mc_embed_signup {
+  background: transparent;
+}
+
 .sec-countdown #mc-embedded-subscribe-form {
   background: url(../images/mailbox.png) no-repeat left center;
   padding-left: 120px;
@@ -1509,6 +1513,11 @@ a {
 
 .sec-countdown .input-group {
   position: relative;
+}
+
+.sec-countdown .input-group .mc-field-group {
+  position: relative;
+  width: 100%;
 }
 
 .sec-countdown .input-group .form-control {
@@ -1531,6 +1540,12 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   z-index: 200;
+}
+
+.sec-countdown .input-group .btn:hover,
+.sec-countdown .input-group .btn:focus,
+.sec-countdown .input-group .btn:active {
+  background-color: #4796c6;
 }
 
 /* Override countdown */

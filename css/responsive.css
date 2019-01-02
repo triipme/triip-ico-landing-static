@@ -150,6 +150,10 @@
 
 /* Tablet screen */
 @media screen and (max-width: 768px) {
+  .page-wrap {
+    overflow-x: hidden;
+  }
+
   /* HEADER
   ------------------------------------ */
   .header .brand {
@@ -262,6 +266,179 @@
     height: 39px;
     width: 35px;
   }
+
+  .live-transaction ul li .trans-id {
+    float: none;
+    width: 100%;
+  }
+
+  .live-transaction ul li .trans-dest,
+  .live-transaction ul li .city {
+    width: 50%;
+  }
+
+  .live-transaction .btn {
+    margin-left: -120px
+  }
+
+  .header-content .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* SECTION VIDEO
+  ------------------------------------- */
+  .video-intro {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-video .statistic .col-md-3 {
+    margin-bottom: 30px;
+  }
+
+  .video-mask,
+  .video-mask-intro {
+    height: 280px;
+  }
+
+  .video-mask .video-ct h2,
+  .video-mask-intro .video-ct h2 {
+    font-size: 24px;
+    padding: 0 20px;
+  }
+
+  .video-mask .video-ct,
+  .video-mask-intro .video-ct {
+    left: 0;
+    margin-left: 0;
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .statistic {
+    font-size: 24px;
+  }
+
+  .statistic .number {
+    font-size: 32px;
+  }
+
+  .sec-network .main-video {
+    min-height: 250px;
+  }
+
+  .sec-network .main-video #mainVideo {
+    height: 250px !important;
+  }
+
+  /* SECTION BENEFIT
+  ------------------------------------- */
+  .sec-business-benefit .triip-block h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .sec-traveler-benefit .owl-dots,
+  .sec-business-benefit .owl-dots {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+
+  /* SECTION PARTNER
+  ------------------------------------- */
+  .triip-block img {
+    max-width: 100px;
+  }
+
+  .sec-partner h3 {
+    margin-top: 10px;
+  }
+
+  .sec-partner .partner-list li {
+    width: 50%;
+  }
+
+
+  /* ROAD MAP
+  ------------------------------------- */
+  .roadmap-list .item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sec-roadmap .item:before {
+    left: 0;
+  }
+
+  .sec-roadmap .item:after {
+    left: 0;
+  }
+
+  .roadmap-list .item .item-inner {
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* OUR TEAM
+  ------------------------------------- */
+  .sec-ourteam .triip-member {
+    margin-bottom: 20px;
+  }
+
+  .sec-press .owl-nav button.owl-prev {
+    left: -10px;
+  }
+
+  .sec-press .owl-nav button.owl-next {
+    right: -10px;
+  }
+
+  .sec-ourteam .intro {
+    opacity: 1;
+    height: auto;
+  }
+
+  .sec-ourteam .triip-member:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+
+  .sec-ourteam .triip-member:hover .intro {
+    display: block;
+    height: auto;
+    opacity: 1;
+  }
+
+
+  /* COUNTDOWN SECTION
+  ------------------------------------- */
+  .sec-countdown #mc-embedded-subscribe-form {
+    background: none;
+    padding-left: 0;
+  }
+
+  .sec-countdown h3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .latest-news .item-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .latest-news .item-feature .item-image {
+    margin-right: 0;
+  }
+
+  .latest-news .item-feature .item-image img {
+    width: 100%;
+  }
 }
 
 
@@ -280,5 +457,30 @@
   .header .action-wrap a {
     font-size: 14px;
     padding: 5px 15px 3px;
+  }
+
+  div.flip-clock-wrapper ul {
+    border-radius: 3px;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 28px;
+  }
+
+  div.flip-clock-wrapper ul li {
+    line-height: 40px;
+  }
+
+  span.flip-clock-divider .flip-clock-label {
+    right: -55px;
+  }
+
+  span.flip-clock-divider.minutes .flip-clock-label,
+  span.flip-clock-divider.seconds .flip-clock-label {
+    right: -65px;
+  }
+
+  div.flip-clock-wrapper ul li a div div.inn {
+    font-size: 16px;
   }
 }
