@@ -117,12 +117,13 @@ a {
 }
 
 .header .brand a {
-  background: url(../images/logo.png) no-repeat left top;
+  background: url(../images/triip-protocol-logo.png) no-repeat left top;
   display: block;
-  height: 59px;
+  height: 58px;
   overflow: hidden;
   text-indent: -999px;
-  width: 189px;
+  width: 50px;
+  background-size: cover;
 }
 
 .header .brand a:hover,
